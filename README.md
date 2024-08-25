@@ -11,34 +11,34 @@ Para el desarrollo de esta actividad, se contempla el desarrollo de lo siguiente
 <!-- ![GitLab Release](https://img.shields.io/gitlab/v/release/:td-modulo2t) -->
 
 ## Estructura HTML
-[ ] Uso correcto de etiquetas semánticas.
-[ ] Inclusion de encabezados, párrafos, listas u otros.
-[ ] Organización lógica de la información.
+- [ ] Uso correcto de etiquetas semánticas.
+- [ ] Inclusion de encabezados, párrafos, listas u otros.
+- [ ] Organización lógica de la información.
 
 ## Estilo CSS
-[ ] Uso adecuado de selectores y reglas CSS.
-[ ] Diseño atractivo y coherente.
-[ ] Aplicación de estilos responsivos para distintos tamaños de pantalla
+- [ ] Uso adecuado de selectores y reglas CSS.
+- [ ] Diseño atractivo y coherente.
+- [ ] Aplicación de estilos responsivos para distintos tamaños de pantalla
 
 ## Bootstrap
-[ ] Integración de al menos un componente de Bootstrap.
-[ ] Uso adecuado de clases y estilos de Bootstrap.
+- [ ] Integración de al menos un componente de Bootstrap.
+- [ ] Uso adecuado de clases y estilos de Bootstrap.
 
 ## Javascript Básico
-[ ] Interactividad básica (por ejemplo, efectos al hacer click)
-[ ] Manipulación del DOM para actualizar contenido dinámicamente (Se puede usar Javascript o JQuery).
+- [ ] Interactividad básica (por ejemplo, efectos al hacer click)
+- [ ] Manipulación del DOM para actualizar contenido dinámicamente (Se puede usar Javascript o JQuery).
 
 ## Proyectos y habilidades
-[ ] Sección que muestra proyectos previos.
-[ ] Lista de habilidades destacadas.
+- [ ] Sección que muestra proyectos previos.
+- [ ] Lista de habilidades destacadas.
 
 ## Formulario de contacto
-[ ] Inclusión de un formulario básico de contacto.
-[ ] Validación básica de campos.
+- [ ] Inclusión de un formulario básico de contacto.
+- [ ] Validación básica de campos.
 
 ## Creatividad y originalidad
-[ ] Elementos creativos que hagan destacar el portafolio
-[ ] Uso innovador de tecnologías aprendidas
+- [ ] Elementos creativos que hagan destacar el portafolio
+- [ ] Uso innovador de tecnologías aprendidas
 
 ## <ins>Tecnologías usadas en el proyecto</ins>
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)

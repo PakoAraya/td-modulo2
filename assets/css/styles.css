@@ -1,0 +1,96 @@
+/* Estilos personalizados */
+body {
+  background: -webkit-gradient(linear, left top, left bottom, from(white), to(black)) fixed;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background: url('/assets/img/backgrounds/mohammad-rahmani-8qEB0fTe9Vw-unsplash.jpg') no-repeat center center/cover;
+  color: #fff;
+  padding: 100px 0;
+}
+
+header h1 {
+  font-size: 2.5rem;
+}
+
+header p {
+  font-size: 1.25rem;
+}
+
+img.rounded-circle {
+  max-width: 100%;
+  height: auto;
+  border: 5px solid #fff;
+}
+
+nav-item dropdown dropdown-menu a i{
+  color: black;
+}
+
+.card {
+  border: none;
+}
+
+.card-img-top {
+  border-radius: 0;
+}
+
+/* Estilo para los botones de conocimientos */
+.btn {
+  border-radius: 10px;
+  text-align: center;
+  padding: 20px;
+  font-size: 1.2rem;
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn i {
+  display: block;
+  margin-bottom: 10px;
+  color: black;
+}
+
+.btn-outline-primary {
+  color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-outline-primary:hover {
+  background-color: rgba(0, 123, 255, 0.1); /* Fondo semitransparente en hover */
+}
+
+.btn-outline-secondary {
+  color: #6c757d;
+  border-color: #6c757d;
+}
+
+.btn-outline-secondary:hover {
+  background-color: rgba(108, 117, 125, 0.1); /* Fondo semitransparente en hover */
+}
+
+.btn-outline-warning {
+  color: #ffc107;
+  border-color: #ffc107;
+}
+
+.btn-outline-warning:hover {
+  background-color: rgba(255, 193, 7, 0.1); /* Fondo semitransparente en hover */
+}
+
+/* Sección Conocimientos */
+#skills {
+  background: rgba(255, 255, 255, 0.8); /* Fondo blanco semitransparente */
+}
+
+/* Sección Formulario de Contacto */
+#contact {
+  background: rgba(255, 255, 255, 0.8); /* Fondo blanco semitransparente */
+}
+
+/* Estilo para el footer */
+footer {
+  background: #343a40;
+  color: #fff;
+}

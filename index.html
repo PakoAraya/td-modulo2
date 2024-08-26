@@ -21,10 +21,10 @@
                     <a class="nav-link" href="#home">Inicio <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#skills">Conocimientos</a>
+                    <a class="nav-link" href="#conocimientos">Conocimientos</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#portfolio">Portafolio de Proyectos</a>
+                    <a class="nav-link" href="#portafolio">Portafolio de Proyectos</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -36,7 +36,7 @@
                         <li><a class="dropdown-item" href="https://gitlab.com/franarayah" target="_blank"><i class="fa fa-gitlab"></i> GitLab</a></li>
                         <li><a class="dropdown-item" href="https://youtube.com/miscelabros" target="_blank"><i class="fa fa-youtube"></i> YouTube</a></li>
                         <li><hr class="dropdown-divider"></li>
-                        <li><a class="dropdown-item" href="#" <i class="bi bi-envelope"></i>Contáctame</a></li>
+                        <li><a class="dropdown-item" href="#contacto" <i class="bi bi-envelope"></i>Contáctame</a></li>
                     </ul>
                 </li>
             </ul>
@@ -60,7 +60,7 @@
     </header>
 
     <!-- Conocimientos -->
-    <section id="skills" class="py-5">
+    <section id="conocimientos" class="py-5">
         <div class="container">
             <h2 class="text-center">Conocimientos</h2>
             <div class="row text-center">
@@ -93,37 +93,40 @@
     </section>
 
     <!-- Portafolio de Proyectos -->
-    <section id="portfolio" class="py-5">
+    <section id="portafolio" class="py-5">
         <div class="container">
             <h2 class="text-center">Portafolio de Proyectos</h2>
             <div class="row">
                 <!-- Card 1 -->
                 <div class="col-md-4">
                     <div class="card mb-4">
-                        <img src="proyecto1.jpg" class="card-img-top" alt="Proyecto 1">
+                        <img src="./assets/img/proyects/bpmn.jpeg" class="card-img-top img-fluid" alt="Consultoria TI en BPMN">
                         <div class="card-body">
-                            <h5 class="card-title">Proyecto 1</h5>
-                            <p class="card-text">Descripción breve del proyecto 1.</p>
+                            <h5 class="card-title">Consultorias TI</h5>
+                            <p class="card-text">Durante buena parte de mi vida, estuve trabajando en el sector de las consultorías a empresas de diversos nichos, apoyándolas en la mejora y optimización de procesos con tecnologías BPM y mucha ingeniería, lo que me llevó en un momento de mi vida al realizar docencia.</p>
+                            <a href="https://www.youtube.com/miscelabros" class="stretched-link"></a>
                         </div>
                     </div>
                 </div>
                 <!-- Card 2 -->
                 <div class="col-md-4">
                     <div class="card mb-4">
-                        <img src="proyecto2.jpg" class="card-img-top" alt="Proyecto 2">
+                        <img src="./assets/img/proyects/gitlab_github.jpeg" class="card-img-top img-fluid" alt="Desarrollador">
                         <div class="card-body">
-                            <h5 class="card-title">Proyecto 2</h5>
-                            <p class="card-text">Descripción breve del proyecto 2.</p>
+                            <h5 class="card-title">Desarrollador</h5>
+                            <p class="card-text">En la actualidad me encuentro capacitándome para volver a ingresar a la industria del desarrollo del software, pues estuve mucho tiempo en la parte de gestión, proyectos e ingeniería, pero la programación es lo que más me gusta desarrollar.</p>
+                            <a href="https://github.com/PakoAraya" class="stretched-link"></a>
                         </div>
                     </div>
                 </div>
                 <!-- Card 3 -->
                 <div class="col-md-4">
                     <div class="card mb-4">
-                        <img src="proyecto3.jpg" class="card-img-top" alt="Proyecto 3">
+                        <img src="./assets/img/proyects/miscelabros.png" class="card-img-top img-fluid" alt="Creador de contenido y YouTuber">
                         <div class="card-body">
-                            <h5 class="card-title">Proyecto 3</h5>
-                            <p class="card-text">Descripción breve del proyecto 3.</p>
+                            <h5 class="card-title">MiscelaBros</h5>
+                            <p class="card-text">Partimos con mi hermano como youtubers como un hobbie dentro de mis espacios libres, y lo que partió siendo un pasatiempo, de a poco se formalizó. <br> En la actualidad cuentamos con el apoyo de grandes marcas de tecnologías que nos apoyan en creación de contenido.</p>
+                            <a href="https://www.youtube.com/miscelabros" class="stretched-link"></a>
                         </div>
                     </div>
                 </div>
@@ -133,25 +136,25 @@
     </section>
 
     <!-- Formulario de Contacto -->
-    <section id="contact" class="py-5">
+    <section id="contacto" class="py-5">
         <div class="container">
             <h2 class="text-center">Formulario de Contacto</h2>
             <form>
                 <div class="form-group">
                     <label for="name">Nombre</label>
-                    <input type="text" class="form-control" id="name" placeholder="Tu nombre">
+                    <input type="text" class="form-control" id="name" placeholder="Tu nombre" required>
                 </div>
                 <div class="form-group">
                     <label for="email">Dirección de Correo Electrónico</label>
-                    <input type="email" class="form-control" id="email" placeholder="Tu correo electrónico">
+                    <input type="email" class="form-control" id="email" placeholder="Tu correo electrónico" required>
                 </div>
                 <div class="form-group">
                     <label for="subject">Asunto</label>
-                    <input type="text" class="form-control" id="subject" placeholder="Asunto">
+                    <input type="text" class="form-control" id="subject" placeholder="Asunto" required>
                 </div>
                 <div class="form-group">
                     <label for="message">Mensaje</label>
-                    <textarea class="form-control" id="message" rows="4" placeholder="Tu mensaje"></textarea>
+                    <textarea class="form-control" id="message" rows="4" placeholder="Tu mensaje" required></textarea>
                 </div>
                 <button type="submit" class="btn btn-primary">Enviar</button>
             </form>

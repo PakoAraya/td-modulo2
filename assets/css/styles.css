@@ -98,7 +98,14 @@ nav-item dropdown-menu a i{
   background-color: rgba(255, 193, 7, 0.1); /* Fondo semitransparente en hover */
 }
 
+#contacto #parrafo-soyHumano {
+  color: white; /* Cambia el color del texto a blanco */
+  margin-left: 10px; /* Opcional: espacio entre el checkbox y el texto */
+  display: inline; /* Asegura que el texto se alinee con el checkbox */
+}
+
 /* Sección Conocimientos */
+/*  Pense en conservar el background que habia hecho pero me arrepenti, me gusto el diseño actual */
 /* #conocimientos {
   background: rgba(255, 255, 255, 0.8); /* Fondo blanco semitransparente 
   background: url('/assets/img/backgrounds/mohammad-rahmani-8qEB0fTe9Vw-unsplash.jpg') no-repeat center center/cover;
